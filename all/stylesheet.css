@@ -1,0 +1,370 @@
+#back {
+	position: absolute;
+	top: 0px;
+	left: 0px;
+	/*background: -webkit-linear-gradient(#7CADFF,#0071CE,#7CADFF);*/
+	background: url(images/backgroundpattern.png);
+	width: 390px;
+	height: 640px;
+}
+
+#logo {
+	position: absolute;
+	top: 10px;
+	left: 10px;
+	background: url(images/pokeballlogo.png) no-repeat;
+	margin-left: -101px;
+	margin-top: 0px;
+	height: 300px;
+	width: 300px;
+}
+
+#bachelor {
+	position: absolute;
+	top:10px;
+	left:10px;
+	height:30px;
+	width:150px;
+	font-family: "Courier";
+	font-size: 15px;
+	color: white;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black; 
+}
+
+#menu {
+	position: absolute;
+	top: 25px;
+	left: 200px;
+	height: 180px;
+	width: 170px;
+	/*background: -webkit-linear-gradient(#FFC737,#FFEAB4,#FFC737);*/
+	background: #FFB827;
+	border-radius: 15px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.arrow {
+	position: absolute;
+	margin-left: 270px;
+	width: 0;
+	height: 0;
+}
+
+#upArrow {
+	margin-top: -2px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-bottom: 15px solid #E90808;
+}
+
+#downArrow {
+	margin-top: 205px;
+	border-left: 10px solid transparent;
+	border-right: 10px solid transparent;
+	border-top: 15px solid #E90808;
+}
+
+#upArrow1 {
+	margin-left: 266px;
+	margin-top: -5px;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-bottom: 20px solid #000000;
+}
+
+#downArrow1 {
+	margin-left: 266px;
+	margin-top: 203px;
+	border-left: 14px solid transparent;
+	border-right: 14px solid transparent;
+	border-top: 20px solid #000000;
+}
+
+.menuSelector {
+	background-repeat: no-repeat;
+	position:absolute;
+	left: 210px;
+	line-height: 30px;
+	text-align: left;
+	border-radius: 10px;
+	padding-left: 10px;
+	font-family: "Courier";
+	font-size: 15px;
+	height: 30px;
+	width: 140px;    
+
+}
+
+#Jo {
+	top: 40px;
+}
+
+#Alexi {
+	top: 80px;
+}
+
+#Seb {
+	top: 120px;
+}
+
+#William {
+	top: 160px;
+}
+
+#displayArea {
+	display: none;
+	position: absolute;
+	top: 48px;
+	left: 33px;
+	height: 145px;
+	width:147px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#secondimage {
+	display: none;
+	position: absolute;
+	top: 295px;
+	left: 45px;
+	height: 145px;
+	width:147px;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.numberinfo {
+	position: absolute;
+	top: 205px;
+	font-family: "Courier";
+	font-size: 15px;
+	color: white;
+	text-shadow: 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black, 0 0 4px black; 
+}
+
+#pokedextitle {
+	position: absolute;
+	top: 240px;
+	left: 40px;
+	font-family: "Courier";
+	font-size: 26px;
+	background-color: white;
+	border-radius: 10px;
+	border-style: solid;
+	border-width: 2px;
+	height: 30px;
+	line-height: 30px;
+	width:120px;
+	text-align: center;
+}
+
+#seen {
+	left: 40px;
+}
+
+#own {
+	left: 123px;
+}
+
+#seennumber {
+	top: 220px;
+	left: 80px;
+}
+
+#ownnumber {
+	top: 220px;
+	left: 171px;
+}
+
+.belowButton {
+	position: absolute;
+	top: 240px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	font-family: "Courier";
+	font-size: 15px;
+	height: 30px;
+	width:50px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#info {
+	left: 200px;
+}
+
+#cry {
+	left: 260px;
+}
+
+#area {
+	left: 320px;
+}
+
+#scanning {
+	position: absolute;
+	top: 400px;
+	left: 110px;
+	display: none;
+	text-align: left;
+	padding-left: 10px;
+	line-height: 40px;
+	border-radius: 10px;
+	font-family: "Courier";
+	font-size: 24px;
+	height: 40px;
+	width:170px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#scan {
+	position: absolute;
+	top: 600px;
+	left: 160px;
+	text-align: center;
+	line-height: 30px;
+	border-radius: 10px;
+	font-family: "Courier";
+	font-size: 18px;
+	height: 30px;
+	width:70px;
+	background-color: #FF3131;
+	border-style: solid;
+	border-width: 2px;
+}
+
+#newpokeman {
+	position: absolute;
+	top: 400px;
+	left: 105px;
+	display: none;
+	text-align: center;
+	padding-top: 7px;
+	/*line-height: 40px;*/
+	border-radius: 10px;
+	font-family: "Courier";
+	font-size: 17px;
+	height: 45px;
+	width:180px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+}
+
+.infowindow {
+	position: absolute;
+	font-family: "Courier";
+	font-size: 15px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+	display: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+}
+
+#first {
+	top: 290px;
+	left: 220px;
+	width: 158px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right: 0px;
+}
+
+#second {
+	top: 360px;
+	left: 180px;
+	width: 140px;
+	padding-right: 10px;
+	text-align: right;
+	border-top-right-radius: 15px;
+	border-bottom-right-radius: 15px;
+	border-left: 0px;
+}
+
+#third {
+	top: 400px;
+	left: 220px;
+	width: 158px;
+	border-top-left-radius: 15px;
+	border-bottom-left-radius: 15px;
+	border-right: 0px;
+}
+
+#fourth {
+	top: 460px;
+	left: 15px;
+	width: 335px;
+	text-align: center;
+	padding-top: 8px;
+	border-radius: 15px;
+	padding-right: 10px;
+	padding-bottom: 8px;
+	
+}
+
+#cryTranscript {
+	top: 400px;
+	left: 70px;
+	width: 250px;
+	text-align: center;
+	line-height: 40px; 
+	padding: 0px;
+	border-radius: 15px;
+	font-size: 18px;
+}
+
+#nextpokeman {
+	position: absolute;
+	font-family: "Courier";
+	font-size: 15px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+	display: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	top: 350px;
+	left: 70px;
+	width: 250px;
+	text-align: center;
+	line-height: 40px; 
+	padding-right: 10px;
+	border-radius: 15px;
+	font-size: 16px;
+
+}
+
+#areaBlurb {
+	position: absolute;
+	font-family: "Courier";
+	font-size: 15px;
+	background-color: #FFB827;
+	border-style: solid;
+	border-width: 2px;
+	display: none;
+	padding-left: 10px;
+	padding-top: 5px;
+	padding-bottom: 5px;
+
+	top: 350px;
+	left: 70px;
+	width: 250px;
+	text-align: center;
+	line-height: 40px; 
+	padding-right: 10px;
+	border-radius: 15px;
+	font-size: 16px;
+
+}
